@@ -112,7 +112,7 @@ body {
 a{
 	text-decoration:none;
 	cursor:pointer;
-	color:#2c62bd;
+	color:#08ae8d;
 }
 
 .no-padding{
@@ -439,7 +439,7 @@ p,.text{
 ul,li{
 	list-style:none;
 	padding:0px;
-	margin:0px;	
+	margin:15px;/*changed from 0px to 15px*/	
 }
 
 .theme-btn{
@@ -1073,10 +1073,7 @@ img{
 }
 
 .header-style-two .logo-outer{
-	/*Adjusted the logo position*/
-	/*padding:18px 0px 17px;*/
-      padding:0px 0px 0px;
-
+	padding:18px 0px 17px;
 }
 
 .header-style-one .logo-outer{
@@ -2149,7 +2146,7 @@ img{
 	bottom:5px;
 	width:35px;
 	height:2px;
-	background-color:#f11a1a;
+	background-color:#1659bf;
 }
 
 .sec-title-two .text{
@@ -4438,9 +4435,9 @@ img{
 .about-section-two .content-column h2{
 	position:relative;
 	color:#000000;
-	font-size:30px;
-	line-height:2.5em;/* changed from 1.3em*/
-	margin-bottom:25px;
+	font-size:30	px;
+	line-height:1.3em;/* changed from 1.3em*/
+	margin-bottom:20px;
 }
 
 .about-section-two .content-column .text{
@@ -6017,7 +6014,8 @@ img{
 .services-section-five{
 	position:relative;
 	padding:90px 0px 60px;
-	background-color:#f2f2f2;
+	/*background-color:#f2f2f2;*/
+	background-color:#f4f4f4;
 	background-position:right top;
 	background-repeat:no-repeat;
 }
@@ -6037,10 +6035,10 @@ img{
 	-o-transition:all 500ms ease;
 }
 
-/*.services-block-three .inner-box:hover{
-	background-color:rgb(243, 84, 84);
+.services-block-three .inner-box:hover{
+	background-color:#2c62bd;
 	box-shadow:0px 0px 30px rgba(0,0,0,0.30);
-}*/
+}
 
 .services-block-three .inner-box .content{
 	position:relative;
@@ -6051,8 +6049,7 @@ img{
 	position:absolute;
 	left:0px;
 	top:0px;
-	/*color:#2c62bd;*/
-	color:#d81727;
+	color:#2c62bd;
 	font-size:54px;
 	line-height:1em;
 	transition:all 500ms ease;
@@ -6061,10 +6058,10 @@ img{
 	-o-transition:all 500ms ease;
 }
 
-/*.services-block-three .inner-box:hover .content .icon-box,
+.services-block-three .inner-box:hover .content .icon-box,
 .services-block-three .inner-box:hover h3 a{
 	color:#ffffff;
-}*/
+}
 
 .services-block-three .inner-box h3{
 	position:relative;
@@ -6094,9 +6091,9 @@ img{
 	-o-transition:all 500ms ease;
 }
 
-/*.services-block-three .inner-box:hover .text{
+.services-block-three .inner-box:hover .text{
 	color:#dbdde2;
-}*/
+}
 
 .services-block-three .inner-box .read-more{
 	position:relative;
