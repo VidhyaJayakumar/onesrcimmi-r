@@ -1073,7 +1073,10 @@ img{
 }
 
 .header-style-two .logo-outer{
-	padding:18px 0px 17px;
+	/*Adjusted the logo position*/
+	/*padding:18px 0px 17px;*/
+      padding:0px 0px 0px;
+
 }
 
 .header-style-one .logo-outer{
