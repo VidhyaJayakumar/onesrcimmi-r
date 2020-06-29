@@ -2146,7 +2146,7 @@ img{
 	bottom:5px;
 	width:35px;
 	height:2px;
-	background-color:#1659bf;
+	background-color:#f11a1a;
 }
 
 .sec-title-two .text{
@@ -6034,10 +6034,10 @@ img{
 	-o-transition:all 500ms ease;
 }
 
-.services-block-three .inner-box:hover{
-	background-color:#2c62bd;
+/*.services-block-three .inner-box:hover{
+	background-color:rgb(243, 84, 84);
 	box-shadow:0px 0px 30px rgba(0,0,0,0.30);
-}
+}*/
 
 .services-block-three .inner-box .content{
 	position:relative;
@@ -6048,7 +6048,8 @@ img{
 	position:absolute;
 	left:0px;
 	top:0px;
-	color:#2c62bd;
+	/*color:#2c62bd;*/
+	color:#d81727;
 	font-size:54px;
 	line-height:1em;
 	transition:all 500ms ease;
@@ -6057,10 +6058,10 @@ img{
 	-o-transition:all 500ms ease;
 }
 
-.services-block-three .inner-box:hover .content .icon-box,
+/*.services-block-three .inner-box:hover .content .icon-box,
 .services-block-three .inner-box:hover h3 a{
 	color:#ffffff;
-}
+}*/
 
 .services-block-three .inner-box h3{
 	position:relative;
@@ -6090,9 +6091,9 @@ img{
 	-o-transition:all 500ms ease;
 }
 
-.services-block-three .inner-box:hover .text{
+/*.services-block-three .inner-box:hover .text{
 	color:#dbdde2;
-}
+}*/
 
 .services-block-three .inner-box .read-more{
 	position:relative;
