@@ -807,6 +807,13 @@
 		width: 100%;
 		text-align:center;
 	}
+	/*logo to center*/
+	.header-top-two.style-two .logo-outer{
+		display: block;
+		width: 100%;
+		text-align:center;
+	
+	}
 	
 	.main-header .header-upper .upper-column{
 		margin-left:0px;
