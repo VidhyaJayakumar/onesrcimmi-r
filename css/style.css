@@ -656,7 +656,7 @@ img{
 	z-index:99999;
 	cursor:pointer;
 	border-radius:50px;
-	background:rgb(247, 20, 32);
+	background:rgb(247, 20, 32); 
 	display:none;
 	border:2px solid #08ae8d;
 	-webkit-transition:all 300ms ease;
@@ -814,6 +814,11 @@ img{
 	margin-right:8px;
 	color:rgba(241, 26, 26, 0.836);
 }
+/* Aligned the logo to be in line with li*/
+.header-top-two.style-two .logo-outer{
+	margin-top:-15px;
+}
+
 
 .header-top-two .top-right{
 	position:relative;
@@ -1055,6 +1060,11 @@ img{
 	display:inline-block;
 	max-width:100%;
 }
+.main-header .header-style-two .logo img{
+	position:relative;
+	display:inline-block;
+	max-width:100%;
+}
 
 .main-header .logo-outer{
 	position:relative;
@@ -1068,20 +1078,23 @@ img{
 }
 .header-style-two,.header-top-two.style-two{
 	background-color:#f9f9f9;
-
-
 }
+
 
 .header-style-two .logo-outer{
 	/*Adjusted the logo position*/
 	/*padding:18px 0px 17px;*/
-      padding:0px 0px 0px;
-
+	  padding:0px 0px 0px;
 }
+.header-top-two.style-two .logo-outer{
+	padding:0px 0px 0px;
+}
+
 
 .header-style-one .logo-outer{
 	padding:15px 0px;
 }
+
 
 .header-style-six .logo-outer{
 	padding:28px 0px;
