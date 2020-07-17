@@ -6160,6 +6160,13 @@ img{
 	background-color:#ffffff;
 	padding:38px 25px 38px 20px;
 }
+/* Increased 38 to 65px to adjust height*/
+.testimonial-block-two .inner-box .upper-box1{
+	position:relative;
+	border-radius:3px;
+	background-color:#ffffff;
+	padding:38px 25px 65px 20px;
+}
 
 .testimonial-block-two .inner-box .upper-box:after{
 	position:absolute;
@@ -6174,8 +6181,23 @@ img{
 	position:relative;
 	padding-left:55px;
 }
+/* Added upperbox1 for the height increase*/
+.testimonial-block-two .inner-box .upper-box1 .content{
+	position:relative;
+	padding-left:55px;
+}
+
 
 .testimonial-block-two .inner-box .upper-box .icon-box{
+	position:absolute;
+	left:0px;
+	top:0px;
+	color:#f5232e;
+	font-size:32px;
+	line-height:1em;
+}
+/* Added upperbox1 for the height increase*/
+.testimonial-block-two .inner-box .upper-box1 .icon-box{
 	position:absolute;
 	left:0px;
 	top:0px;
