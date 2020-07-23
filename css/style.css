@@ -2155,15 +2155,16 @@ img{
 	line-height:1.2em;
 	display:inline-block;
 }
-
+/*Removed the line after the title*/
 .sec-title-two h2:before{
 	position:absolute;
-	content:'';
+	/*content:'';
 	left:105%;
 	bottom:5px;
 	width:35px;
 	height:2px;
-	background-color:#f11a1a;
+	/*background-color:#f11a1a;*/
+
 }
 
 .sec-title-two .text{
