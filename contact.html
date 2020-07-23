@@ -163,7 +163,9 @@ $(function(){
         body = body.replace(/\n/g, '<br>\n');
 
         var mailfrom="onesourceimmigration.com@gmail.com";
-        var mailto=["info@onesourceimmigration.com", "vidhya.jayakumar@gmail.com"]; //TODO - Change this to nikita's gmail
+        var mailto=["info@onesourceimmigration.com", "nikitamehra1121@gmail.com"]; 
+        var feedbackMsg = ". Our consultant will review your details and respond to you shortly. Thanks for visiting OneSource Immigration.";
+
         Email.send({
             SecureToken : "2c2062da-238a-4f4e-8e8f-d77ba891a69c",
             To : mailto,
@@ -174,7 +176,7 @@ $(function(){
             //Body : "<html>Contact E-mail : "+email+"<br></br><h2>Message from "+username+"</h2><br></br>Contact No:"+phone+"<br></br>"+body+"</html>"//
             Body : "<html>Message From : "+username+"<br></br>Email ID : "+email+"<br></br>Contact No : "+phone+"<br></br>Message : "+body+"</html>"
         }).then(function(message){
-            alert("E-mail sent status : "+message)});
+            alert("E-mail sent status : "+message+feedbackMsg)});
     }
 </script>
 
