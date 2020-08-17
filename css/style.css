@@ -6799,7 +6799,9 @@ img{
 
 .company-section-two .inner-container .image-column .inner-column{
 	padding-left:0px;
-	margin-bottom:0px;
+	margin-bottom:0px;	
+	/* added margin to adjust the line*/
+	margin-top: 35px;
 }
 
 .company-section-two .inner-container .content-column .inner-column{
